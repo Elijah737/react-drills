@@ -7,6 +7,16 @@ export default class List extends Component{
             return <Todo key={index} task={element} />;
         })
 
-    return <div>{list}</div>
+    return (
+        <div>
+            {list}
+
+            <div className='box1' ></div>
+
+        </div>
+   
+
+
+    )
     }
 }

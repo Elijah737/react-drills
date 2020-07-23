@@ -30,7 +30,7 @@ class NewTask extends Component{
                     onChange={e => this.handleInputChange(e.target.value)}
                 />
 
-                <button onClick={this.handleAdd} >Add</button>
+                <button onClick={this.handleAdd}> Add </button>
             </div>
         );
     }

@@ -51,6 +51,7 @@ class App extends Component{
           <h1> My to-do list: </h1>
           <NewTask add={this.handleAddTask} />
           <List tasks={this.state.list} />
+          <div className='box'></div>
         </div>
       );
     }
