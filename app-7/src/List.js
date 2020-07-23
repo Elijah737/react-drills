@@ -11,7 +11,7 @@ export default class List extends Component{
         <div>
             {list}
 
-            <div className='box1' ></div>
+            <div className='box1' >{list}</div>
 
         </div>
    
